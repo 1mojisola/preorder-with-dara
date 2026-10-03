@@ -6,7 +6,7 @@
 
   <title>Preorder With Dara | Quality Finds, Better Prices</title>
 
-  <meta name="description" content="Shop quality footwear and lifestyle products from Preorder With Dara at affordable prices. Order easily through WhatsApp.">
+  <meta name="description" content="Preorder With Dara — quality footwear and lifestyle finds at affordable prices. Shop and order directly through WhatsApp.">
 
   <style>
     * {
@@ -21,7 +21,7 @@
 
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background: #f8f5ef;
+      background: #f7f3ec;
       color: #171717;
       line-height: 1.6;
     }
@@ -32,8 +32,8 @@
     }
 
     img {
-      width: 100%;
       display: block;
+      width: 100%;
     }
 
     /* HEADER */
@@ -41,121 +41,125 @@
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: rgba(248, 245, 239, 0.96);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid #e7e0d5;
+      background: rgba(247, 243, 236, 0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid #e6ddd1;
     }
 
     .nav {
       max-width: 1150px;
       margin: auto;
-      padding: 18px 22px;
+      padding: 17px 22px;
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
 
     .logo {
-      font-size: 21px;
+      font-size: 20px;
       font-weight: 900;
-      letter-spacing: -0.5px;
     }
 
     .logo span {
-      color: #9a6337;
+      color: #9b6339;
     }
 
     .nav-links {
       display: flex;
       gap: 28px;
       font-size: 14px;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     .nav-links a:hover {
-      color: #9a6337;
+      color: #9b6339;
     }
 
-    .nav-btn {
+    .nav-button {
       background: #171717;
       color: white;
-      padding: 11px 17px;
+      padding: 11px 18px;
       border-radius: 30px;
       font-size: 13px;
-      font-weight: 700;
+      font-weight: 800;
     }
 
     /* HERO */
     .hero {
-      min-height: 78vh;
+      min-height: 80vh;
       display: flex;
       align-items: center;
       background:
-        linear-gradient(90deg, rgba(248,245,239,1) 0%, rgba(248,245,239,.94) 45%, rgba(248,245,239,.35) 100%),
+        linear-gradient(
+          90deg,
+          rgba(247,243,236,1) 0%,
+          rgba(247,243,236,.94) 42%,
+          rgba(247,243,236,.35) 100%
+        ),
         url("images/beige-high-top-boot.jpg") center/cover no-repeat;
     }
 
     .hero-content {
-      max-width: 1150px;
       width: 100%;
+      max-width: 1150px;
       margin: auto;
-      padding: 80px 22px;
+      padding: 85px 22px;
     }
 
     .eyebrow {
-      color: #9a6337;
+      color: #9b6339;
       text-transform: uppercase;
       letter-spacing: 3px;
       font-size: 12px;
-      font-weight: 800;
-      margin-bottom: 15px;
+      font-weight: 900;
+      margin-bottom: 17px;
     }
 
     .hero h1 {
-      max-width: 650px;
+      max-width: 700px;
       font-size: clamp(48px, 8vw, 82px);
-      line-height: .98;
+      line-height: .96;
       letter-spacing: -4px;
       margin-bottom: 25px;
     }
 
     .hero p {
-      max-width: 520px;
-      font-size: 18px;
+      max-width: 540px;
       color: #555;
+      font-size: 18px;
       margin-bottom: 32px;
     }
 
     .hero-buttons {
       display: flex;
-      gap: 12px;
       flex-wrap: wrap;
+      gap: 12px;
     }
 
-    .btn {
+    .button {
       display: inline-block;
       padding: 14px 23px;
       border-radius: 30px;
-      font-weight: 800;
       font-size: 14px;
+      font-weight: 800;
       transition: .25s;
     }
 
-    .btn-dark {
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-dark {
       background: #171717;
       color: white;
     }
 
-    .btn-light {
+    .button-light {
       background: white;
-      border: 1px solid #ddd4c8;
+      border: 1px solid #ddd3c7;
     }
 
-    .btn:hover {
-      transform: translateY(-2px);
-    }
-
-    /* SECTION */
+    /* GENERAL */
     section {
       padding: 90px 22px;
     }
@@ -171,24 +175,24 @@
     }
 
     .section-heading span {
-      color: #9a6337;
+      color: #9b6339;
       text-transform: uppercase;
-      font-size: 12px;
       letter-spacing: 3px;
-      font-weight: 800;
+      font-size: 12px;
+      font-weight: 900;
     }
 
     .section-heading h2 {
-      font-size: clamp(34px, 5vw, 50px);
-      line-height: 1.05;
-      margin-top: 8px;
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1;
       letter-spacing: -2px;
+      margin-top: 9px;
     }
 
     .section-heading p {
-      color: #666;
-      max-width: 580px;
+      max-width: 600px;
       margin: 15px auto 0;
+      color: #666;
     }
 
     /* PRODUCTS */
@@ -203,10 +207,10 @@
     }
 
     .product-card {
-      background: #f8f5ef;
-      border: 1px solid #e9e1d6;
-      border-radius: 22px;
       overflow: hidden;
+      background: #f7f3ec;
+      border: 1px solid #e8dfd3;
+      border-radius: 22px;
       transition: .3s;
     }
 
@@ -227,7 +231,7 @@
       transition: .4s;
     }
 
-    .product-card:hover .product-image img {
+    .product-card:hover img {
       transform: scale(1.04);
     }
 
@@ -237,24 +241,25 @@
 
     .product-info h3 {
       font-size: 19px;
-      margin-bottom: 6px;
+      line-height: 1.25;
+      margin-bottom: 7px;
     }
 
     .price {
-      color: #9a6337;
-      font-size: 20px;
+      color: #9b6339;
+      font-size: 21px;
       font-weight: 900;
-      margin: 7px 0;
+      margin-bottom: 8px;
     }
 
     .description {
+      min-height: 50px;
       color: #666;
       font-size: 14px;
-      margin-bottom: 17px;
-      min-height: 45px;
+      margin-bottom: 18px;
     }
 
-    .order-btn {
+    .order-button {
       display: block;
       text-align: center;
       background: #171717;
@@ -266,18 +271,25 @@
       transition: .2s;
     }
 
-    .order-btn:hover {
-      background: #9a6337;
+    .order-button:hover {
+      background: #9b6339;
     }
 
-    /* WHY US */
+    .shipping-note {
+      text-align: center;
+      color: #777;
+      font-size: 13px;
+      margin-top: 25px;
+    }
+
+    /* WHY */
     .why {
       background: #171717;
       color: white;
     }
 
     .why .section-heading p {
-      color: #bbb;
+      color: #aaa;
     }
 
     .why-grid {
@@ -287,17 +299,17 @@
     }
 
     .why-card {
+      background: #202020;
       border: 1px solid #333;
       border-radius: 18px;
-      padding: 27px 20px;
-      background: #202020;
+      padding: 27px 21px;
     }
 
-    .why-card .number {
-      color: #b98252;
+    .why-number {
+      color: #c28a5b;
       font-size: 13px;
       font-weight: 900;
-      margin-bottom: 18px;
+      margin-bottom: 17px;
     }
 
     .why-card h3 {
@@ -318,18 +330,17 @@
 
     .step {
       padding: 25px;
-      border-top: 2px solid #9a6337;
+      border-top: 2px solid #9b6339;
     }
 
-    .step strong {
-      display: block;
+    .step-number {
+      color: #9b6339;
       font-size: 12px;
-      color: #9a6337;
-      margin-bottom: 12px;
+      font-weight: 900;
     }
 
     .step h3 {
-      margin-bottom: 7px;
+      margin: 10px 0 7px;
     }
 
     .step p {
@@ -339,21 +350,21 @@
 
     /* CTA */
     .cta {
-      background: #e9dfd1;
+      background: #e9dfd2;
       text-align: center;
     }
 
     .cta h2 {
-      max-width: 650px;
+      max-width: 700px;
       margin: auto;
-      font-size: clamp(35px, 6vw, 58px);
-      line-height: 1;
+      font-size: clamp(36px, 6vw, 60px);
+      line-height: .98;
       letter-spacing: -2px;
     }
 
     .cta p {
       max-width: 550px;
-      margin: 18px auto 25px;
+      margin: 18px auto 27px;
       color: #555;
     }
 
@@ -379,13 +390,9 @@
       margin-top: 8px;
     }
 
-    .footer-right {
-      text-align: right;
-    }
-
-    .footer-right a {
-      color: #c99568;
-      font-weight: 700;
+    .footer-link {
+      color: #c28a5b;
+      font-weight: 800;
     }
 
     /* MOBILE */
@@ -406,10 +413,6 @@
       .hero {
         min-height: 72vh;
       }
-
-      .hero h1 {
-        letter-spacing: -2px;
-      }
     }
 
     @media (max-width: 600px) {
@@ -417,10 +420,7 @@
         padding: 70px 17px;
       }
 
-      .product-grid {
-        grid-template-columns: 1fr;
-      }
-
+      .product-grid,
       .why-grid,
       .steps {
         grid-template-columns: 1fr;
@@ -432,7 +432,10 @@
 
       .hero {
         background:
-          linear-gradient(rgba(248,245,239,.82), rgba(248,245,239,.96)),
+          linear-gradient(
+            rgba(247,243,236,.82),
+            rgba(247,243,236,.96)
+          ),
           url("images/beige-high-top-boot.jpg") center/cover no-repeat;
       }
 
@@ -441,7 +444,8 @@
       }
 
       .hero h1 {
-        font-size: 52px;
+        font-size: 53px;
+        letter-spacing: -3px;
       }
 
       .footer-right {
@@ -455,26 +459,37 @@
 
 <header>
   <nav class="nav">
-    <a href="#" class="logo">Preorder <span>With Dara</span></a>
+
+    <a href="#" class="logo">
+      Preorder <span>With Dara</span>
+    </a>
 
     <div class="nav-links">
       <a href="#shop">Shop</a>
-      <a href="#about">Why Us</a>
+      <a href="#why">Why Us</a>
       <a href="#how">How It Works</a>
     </div>
 
-    <a class="nav-btn" href="#shop">Shop Now</a>
+    <a href="#shop" class="nav-button">Shop Now</a>
+
   </nav>
 </header>
+
 
 <main>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-content">
-      <div class="eyebrow">Preorder With Dara</div>
 
-      <h1>Quality finds. Better prices.</h1>
+    <div class="hero-content">
+
+      <div class="eyebrow">
+        Preorder With Dara
+      </div>
+
+      <h1>
+        Quality finds. Better prices.
+      </h1>
 
       <p>
         Discover stylish footwear and useful lifestyle products at affordable
@@ -482,37 +497,52 @@
       </p>
 
       <div class="hero-buttons">
-        <a href="#shop" class="btn btn-dark">Shop Products</a>
+
+        <a href="#shop" class="button button-dark">
+          Shop Products
+        </a>
 
         <a
-          href="https://wa.me/234XXXXXXXXXX?text=Hello%20Preorder%20With%20Dara%2C%20I%20would%20like%20to%20make%20an%20order."
-          class="btn btn-light"
+          href="https://wa.me/2349079116186?text=Hello%20Preorder%20With%20Dara%2C%20I%20would%20like%20to%20make%20an%20order."
+          class="button button-light"
           target="_blank"
         >
           Order on WhatsApp
         </a>
+
       </div>
+
     </div>
+
   </section>
 
 
   <!-- PRODUCTS -->
   <section class="products" id="shop">
+
     <div class="container">
 
       <div class="section-heading">
+
         <span>Shop the collection</span>
-        <h2>Featured Products</h2>
+
+        <h2>
+          Featured Products
+        </h2>
+
         <p>
-          Browse some of our available finds and send us a message to place
-          your preorder.
+          Browse our available finds and send us a message to place your preorder.
         </p>
+
       </div>
+
 
       <div class="product-grid">
 
-        <!-- PRODUCT 1 -->
+
+        <!-- 1 -->
         <article class="product-card">
+
           <div class="product-image">
             <img
               src="images/beige-high-top-boot.jpg"
@@ -521,8 +551,14 @@
           </div>
 
           <div class="product-info">
-            <h3>Beige High-Top Casual Boot</h3>
-            <div class="price">₦26,000</div>
+
+            <h3>
+              Beige High-Top Casual Boot
+            </h3>
+
+            <div class="price">
+              ₦26,000
+            </div>
 
             <p class="description">
               Stylish lace-up ankle boot with a chunky anti-slip sole.
@@ -530,18 +566,21 @@
             </p>
 
             <a
-              class="order-btn"
-              href="https://wa.me/234XXXXXXXXXX?text=Hello%20Preorder%20With%20Dara%2C%20I%27m%20interested%20in%20the%20Beige%20High-Top%20Casual%20Boot%20%E2%82%A626%2C000."
+              class="order-button"
+              href="https://wa.me/2349079116186?text=Hello%20Preorder%20With%20Dara%2C%20I%27m%20interested%20in%20the%20Beige%20High-Top%20Casual%20Boot%20%E2%82%A626%2C000."
               target="_blank"
             >
               Order on WhatsApp
             </a>
+
           </div>
+
         </article>
 
 
-        <!-- PRODUCT 2 -->
+        <!-- 2 -->
         <article class="product-card">
+
           <div class="product-image">
             <img
               src="images/white-black-sneakers.jpg"
@@ -550,14 +589,375 @@
           </div>
 
           <div class="product-info">
-            <h3>White & Black Retro Sneakers</h3>
-            <div class="price">₦10,000</div>
+
+            <h3>
+              White & Black Retro Sneakers
+            </h3>
+
+            <div class="price">
+              ₦10,000
+            </div>
 
             <p class="description">
-              Clean low-top sneakers with a gum sole, perfect for everyday
-              casual styling.
+              Clean low-top sneakers with a gum sole,
+              perfect for everyday casual styling.
             </p>
 
             <a
-              class="order-btn"
-              href="https://wa.me/234XXXXXXXXXX?text=Hello
+              class="order-button"
+              href="https://wa.me/2349079116186?text=Hello%20Preorder%20With%20Dara%2C%20I%27m%20interested%20in%20the%20White%20%26%20Black%20Retro%20Sneakers%20%E2%82%A610%2C000."
+              target="_blank"
+            >
+              Order on WhatsApp
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- 3 -->
+        <article class="product-card">
+
+          <div class="product-image">
+            <img
+              src="images/white-silver-runner.jpg"
+              alt="White and Silver Runner Sneakers"
+            >
+          </div>
+
+          <div class="product-info">
+
+            <h3>
+              White & Silver Runner
+            </h3>
+
+            <div class="price">
+              ₦10,000
+            </div>
+
+            <p class="description">
+              Lightweight cushioned sneakers for everyday walking,
+              sportswear and streetwear. Sizes 36–44.
+            </p>
+
+            <a
+              class="order-button"
+              href="https://wa.me/2349079116186?text=Hello%20Preorder%20With%20Dara%2C%20I%27m%20interested%20in%20the%20White%20%26%20Silver%20Runner%20%E2%82%A610%2C000."
+              target="_blank"
+            >
+              Order on WhatsApp
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- 4 -->
+        <article class="product-card">
+
+          <div class="product-image">
+            <img
+              src="images/black-croc-derby.jpg"
+              alt="Black Croc-Embossed Derby"
+            >
+          </div>
+
+          <div class="product-info">
+
+            <h3>
+              Black Croc-Embossed Derby
+            </h3>
+
+            <div class="price">
+              ₦13,000
+            </div>
+
+            <p class="description">
+              Fashion-forward chunky derby with a glossy croc-embossed
+              finish for smart and stylish looks.
+            </p>
+
+            <a
+              class="order-button"
+              href="https://wa.me/2349079116186?text=Hello%20Preorder%20With%20Dara%2C%20I%27m%20interested%20in%20the%20Black%20Croc-Embossed%20Derby%20%E2%82%A613%2C000."
+              target="_blank"
+            >
+              Order on WhatsApp
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- 5 -->
+        <article class="product-card">
+
+          <div class="product-image">
+            <img
+              src="images/brown-croc-derby.jpg"
+              alt="Brown Croc-Embossed Derby"
+            >
+          </div>
+
+          <div class="product-info">
+
+            <h3>
+              Brown Croc-Embossed Derby
+            </h3>
+
+            <div class="price">
+              ₦13,000
+            </div>
+
+            <p class="description">
+              Stylish brown chunky derby perfect for native,
+              corporate and smart-casual looks.
+            </p>
+
+            <a
+              class="order-button"
+              href="https://wa.me/2349079116186?text=Hello%20Preorder%20With%20Dara%2C%20I%27m%20interested%20in%20the%20Brown%20Croc-Embossed%20Derby%20%E2%82%A613%2C000."
+              target="_blank"
+            >
+              Order on WhatsApp
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- 6 -->
+        <article class="product-card">
+
+          <div class="product-image">
+            <img
+              src="images/habei-bear-tumbler.jpg"
+              alt="Habei Bear 3-Piece Tumbler Set"
+            >
+          </div>
+
+          <div class="product-info">
+
+            <h3>
+              Habei Bear 3-Piece Tumbler Set
+            </h3>
+
+            <div class="price">
+              ₦8,000
+            </div>
+
+            <p class="description">
+              A practical 3-piece stainless-steel hydration set
+              for home, school, office or gym.
+            </p>
+
+            <a
+              class="order-button"
+              href="https://wa.me/2349079116186?text=Hello%20Preorder%20With%20Dara%2C%20I%27m%20interested%20in%20the%20Habei%20Bear%203-Piece%20Tumbler%20Set%20%E2%82%A68%2C000."
+              target="_blank"
+            >
+              Order on WhatsApp
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="shipping-note">
+        *Prices shown exclude shipping fees.
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- WHY US -->
+  <section class="why" id="why">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>Why Dara?</span>
+
+        <h2>
+          Simple shopping. Great finds.
+        </h2>
+
+        <p>
+          Making it easier to discover stylish products
+          and place your preorder.
+        </p>
+
+      </div>
+
+
+      <div class="why-grid">
+
+        <div class="why-card">
+          <div class="why-number">01</div>
+          <h3>Affordable Finds</h3>
+          <p>
+            Carefully selected products at competitive prices.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">02</div>
+          <h3>Quality Focus</h3>
+          <p>
+            Products selected with style and usefulness in mind.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">03</div>
+          <h3>Easy Ordering</h3>
+          <p>
+            Choose your item and contact us directly through WhatsApp.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">04</div>
+          <h3>Preorder Made Easy</h3>
+          <p>
+            Confirm your product, size and shipping details with ease.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- HOW IT WORKS -->
+  <section id="how">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>How it works</span>
+
+        <h2>
+          Order in four simple steps.
+        </h2>
+
+      </div>
+
+
+      <div class="steps">
+
+        <div class="step">
+          <div class="step-number">STEP 01</div>
+          <h3>Choose</h3>
+          <p>
+            Browse the products and select what you want.
+          </p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">STEP 02</div>
+          <h3>Message Us</h3>
+          <p>
+            Click the WhatsApp button to send your enquiry.
+          </p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">STEP 03</div>
+          <h3>Confirm</h3>
+          <p>
+            Confirm availability, size and shipping details.
+          </p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">STEP 04</div>
+          <h3>Receive</h3>
+          <p>
+            Complete your order and wait for your delivery.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CTA -->
+  <section class="cta">
+
+    <div class="container">
+
+      <h2>
+        Found something you like?
+      </h2>
+
+      <p>
+        Send us a message on WhatsApp and let's get your preorder started.
+      </p>
+
+      <a
+        href="https://wa.me/2349079116186?text=Hello%20Preorder%20With%20Dara%2C%20I%20want%20to%20make%20an%20order."
+        class="button button-dark"
+        target="_blank"
+      >
+        Start Your Order
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+
+  <div class="footer-inner">
+
+    <div>
+      <strong>Preorder With Dara</strong>
+
+      <p>
+        Quality finds. Better prices.
+      </p>
+    </div>
+
+
+    <div class="footer-right">
+
+      <a
+        class="footer-link"
+        href="https://wa.me/2349079116186"
+        target="_blank"
+      >
+        WhatsApp Us
+      </a>
+
+      <p>
+        © 2026 Preorder With Dara. All rights reserved.
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
